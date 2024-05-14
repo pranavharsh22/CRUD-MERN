@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.navbar{
+  background: #000;
+}
+.nav-content{
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+}
+
+
+.nav-content p{
+  margin: 10px;
+}
+.table-all{
+  display: flex;
+  justify-content: center;
+}
+.table-content{
+
+    padding: 20px;
+    width: 90%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.table-content table{
+  width: 100%;
+}
+.add-form{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  
+}
+.final-form{
+  padding: 10px;
+  display: flex;
+  
+ flex-wrap: wrap;
+  width: 50%;
+  
+}
+.final-form input{
+  width: 100%;
+  padding: 10px;
+  
+}
+
+.final-form label{
+  margin-top: 20px;
+}
+.final-form button{
+  width: 100%;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+}
+.button-section{
+  display: flex;
+  gap:1rem ;
+  justify-content: center;
+  padding: 10px;
+}
+.button-section button{
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+}
+.table-all{
+  text-align: center;
+}
